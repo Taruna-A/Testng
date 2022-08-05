@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15574" started-at="2022-07-30T04:09:17Z" finished-at="2022-07-30T04:09:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15574" started-at="2022-07-30T04:09:17Z" finished-at="2022-07-30T04:09:32Z">
+      <class name="takescreenshots.DemoListener">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:takescreenshots.DemoListener@343f4d3d]" name="openBrowser" is-config="true" duration-ms="4721" started-at="2022-07-30T04:09:17Z" finished-at="2022-07-30T04:09:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="OpenSite()[pri:0, instance:takescreenshots.DemoListener@343f4d3d]" name="OpenSite" duration-ms="3613" started-at="2022-07-30T04:09:22Z" finished-at="2022-07-30T04:09:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenSite -->
+        <test-method status="PASS" signature="clickOnAdvanceJavaLink()[pri:0, instance:takescreenshots.DemoListener@343f4d3d]" name="clickOnAdvanceJavaLink" duration-ms="4641" started-at="2022-07-30T04:09:27Z" finished-at="2022-07-30T04:09:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAdvanceJavaLink -->
+        <test-method status="PASS" signature="testToFail()[pri:0, instance:takescreenshots.DemoListener@343f4d3d]" name="testToFail" duration-ms="19" started-at="2022-07-30T04:09:32Z" finished-at="2022-07-30T04:09:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToFail -->
+      </class> <!-- takescreenshots.DemoListener -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

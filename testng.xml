@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods">
+  <test thread-count="5" name="Test" parallel="methods">
+    <parameter name="username"  value="tom"/>
+        <parameter name="password"  value="sam"/>
+    
+  
+   <groups>
+    <run>
+      <include name="smoke"/>
+    </run>
+  </groups>
+    <classes>
+      <class name="sample.Homepage"/>
+      <class name="basics.Basic2"/>
+      <class name="basics.Basic1"/>
+      <class name="sample.Myntra"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
